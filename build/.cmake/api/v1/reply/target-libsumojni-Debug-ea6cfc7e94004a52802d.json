@@ -1,0 +1,528 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/tl/sumo/bin/liblibsumojni.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"SWIG_ADD_LIBRARY",
+			"target_link_libraries",
+			"swig_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.16/Modules/UseSWIG.cmake",
+			"src/libsumo/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 716,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 832,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 723,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 334,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 428,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 429,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 341,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 377,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 411,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 702,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 14
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -pthread -Wall -pedantic -Wextra -g -D_DEBUG -fPIC   -I/usr/include/fox-1.6"
+				},
+				{
+					"fragment" : "-Wno-strict-aliasing"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "FLOAT_MATH_FUNCTIONS"
+				},
+				{
+					"define" : "libsumojni_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/tl/sumo/build/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/tl/sumo/src"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/usr/lib/jvm/default-java/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/usr/lib/jvm/default-java/include/linux"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/usr/include/gdal"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "foreign_phemlight::@ad89c79543570382d266"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "foreign_tcpip::@be039331f01f96f36b33"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "libsumojni_swig_compilation::@03b71290cbf45e152f80"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "libsumostatic::@03b71290cbf45e152f80"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mesosim::@58104efe968653ea7c20"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim::@e306a235347688b0ddec"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_actions::@4f4faf28cdbf9ae8190c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_cfmodels::@0e8715206265e9cb165e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_devices::@fbb71fe6bcb45b079a2a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_engine::@49f367821544ed26d73b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_lcmodels::@d7941eb48093fbdb8f84"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_output::@40653fe1144cb750d8f7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_traffic_lights::@6eacaf5005114980ea76"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_transportables::@9b5dc000b574cb09851c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "microsim_trigger::@1b4699cb3ff492ae2613"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "netload::@802f6b07b771099a1d63"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "traciserver::@3d62466cd6f79130c764"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_common::@aa6ce2469be8f0113b15"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_distribution::@8b8c75e319860c687456"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_emissions::@387d21a620538c10c133"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_geom::@1683f14d20265f24af7d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_importio::@96cfbbdd09d1c5d37862"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_iodevices::@03a9ec57b4fb339063c5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_options::@cbb000b60d298a6a79ae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_shapes::@2b2012ad5e1910fad22f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_traction_wire::@7bbf983b2a5a4dc274b4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_vehicle::@38b0630b89782444a57e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "utils_xml::@c46e5d078dc25fdda815"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "libsumo"
+	},
+	"id" : "libsumojni::@03b71290cbf45e152f80",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--whole-archive",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "liblibsumostatic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../traci-server/libtraciserver.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../netload/libnetload.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/cfmodels/libmicrosim_cfmodels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/engine/libmicrosim_engine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/lcmodels/libmicrosim_lcmodels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/devices/libmicrosim_devices.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/trigger/libmicrosim_trigger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/output/libmicrosim_output.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/transportables/libmicrosim_transportables.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/actions/libmicrosim_actions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/traffic_lights/libmicrosim_traffic_lights.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../microsim/libmicrosim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../mesosim/libmesosim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/emissions/libutils_emissions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../foreign/PHEMlight/cpp/libforeign_phemlight.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/vehicle/libutils_vehicle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/distribution/libutils_distribution.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/shapes/libutils_shapes.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/options/libutils_options.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/xml/libutils_xml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/geom/libutils_geom.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/common/libutils_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/importio/libutils_importio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/iodevices/libutils_iodevices.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../utils/traction_wire/libutils_traction_wire.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../foreign/tcpip/libforeign_tcpip.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxerces-c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libproj.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L/usr/lib/x86_64-linux-gnu -lFOX-1.6 -lX11 -lXext -lfreetype -lfontconfig -lXft -lXcursor -lfreetype -lfontconfig -lfreetype -lGL -lGLU -ldl -lpthread -lrt -ljpeg -lpng -ltiff -lz -lGLU -lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--no-whole-archive",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "libsumojni",
+	"nameOnDisk" : "liblibsumojni.so",
+	"paths" : 
+	{
+		"build" : "src/libsumo",
+		"source" : "src/libsumo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/libsumo/java/libsumoJAVA_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/libsumo/java/libsumo.java",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/libsumo/java/libsumoJNI.java",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

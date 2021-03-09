@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Mar  8 11:05:41 2021 by Eclipse SUMO sumo Version v1_8_0+1539-607721a8f0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="simple.net.xml"/>
+        <route-files value="input_routes.rou.xml"/>
+        <additional-files value="traciDemo.add.xml"/>
+    </input>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="60.00" id="det_0" nVehContrib="6" flow="360.00" occupancy="3.81" speed="13.23" harmonicMeanSpeed="13.13" length="5.00" nVehEntered="6"/>
+    <interval begin="60.00" end="120.00" id="det_0" nVehContrib="7" flow="420.00" occupancy="4.52" speed="12.95" harmonicMeanSpeed="12.89" length="5.00" nVehEntered="7"/>
+    <interval begin="120.00" end="180.00" id="det_0" nVehContrib="6" flow="360.00" occupancy="5.49" speed="11.27" harmonicMeanSpeed="9.11" length="5.00" nVehEntered="6"/>
+    <interval begin="180.00" end="240.00" id="det_0" nVehContrib="8" flow="480.00" occupancy="4.70" speed="14.21" harmonicMeanSpeed="14.18" length="5.00" nVehEntered="8"/>
+    <interval begin="240.00" end="300.00" id="det_0" nVehContrib="6" flow="360.00" occupancy="3.92" speed="13.05" harmonicMeanSpeed="12.76" length="5.00" nVehEntered="6"/>
+    <interval begin="300.00" end="360.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="360.00" end="420.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="420.00" end="473.00" id="det_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>

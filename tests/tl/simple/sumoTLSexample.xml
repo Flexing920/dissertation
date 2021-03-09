@@ -1,0 +1,90 @@
+<add>
+    //SUMO Static Timing Inputs
+    <tlLogic id="C" type="static" programID="0" offset="0">
+        <phase duration="33" state="GGgrrrGGgrrr"/>
+        <phase duration="3"  state="yygrrryygrrr"/>
+        <phase duration="6"  state="rrGrrrrrGrrr"/>
+        <phase duration="3"  state="rryrrrrryrrr"/>
+        <phase duration="33" state="rrrGGgrrrGGg"/>
+        <phase duration="3"  state="rrryygrrryyg"/>
+        <phase duration="6"  state="rrrrrGrrrrrG"/>
+        <phase duration="3"  state="rrrrryrrrrry"/>
+    </tlLogic>
+
+    //SUMO Actuated Timing Inputs
+    <tlLogic id="C" offset="0" programID="1" type="actuated">
+        <phase duration="99" maxDur="60" minDur="5" name="1+5" next="10 8 9" state="rrrrrGrrrrrG"/>
+        <phase duration="99" maxDur="60" minDur="5" name="1+6" next="11" state="rrrGGGrrrrrr"/>
+        <phase duration="99" maxDur="60" minDur="5" name="2+5" next="12" state="rrrrrrrrrGGG"/>
+        <phase duration="99" maxDur="60" minDur="5" name="2+6" next="13" state="rrrGGrrrrGGr"/>
+        <phase duration="99" maxDur="60" minDur="5" name="3+7" next="16 14 15" state="rrGrrrrrGrrr"/>
+        <phase duration="99" maxDur="60" minDur="5" name="3+8" next="17" state="rrrrrrGGGrrr"/>
+        <phase duration="99" maxDur="60" minDur="5" name="4+7" next="18" state="GGGrrrrrrrrr"/>
+        <phase duration="99" maxDur="60" minDur="5" name="4+8" next="19" state="GGrrrrGGrrrr"/>
+        <phase duration="3" name="1+5-1+6" next="1" state="rrrrrGrrrrry"/>
+        <phase duration="3" name="1+5-2+5" next="2" state="rrrrryrrrrrG"/>
+        <phase duration="3" name="1+5-2+6" next="3" state="rrrrryrrrrry"/>
+        <phase duration="3" name="1+6-2+6" next="3" state="rrrGGyrrrrrr"/>
+        <phase duration="3" name="2+5-2+6" next="3" state="rrrrrrrrrGGy"/>
+        <phase duration="3" name="2+6-3+7" next="4" state="rrryyrrrryyr"/>
+        <phase duration="3" name="3+7-3+8" next="5" state="rryrrrrrGrrr"/>
+        <phase duration="3" name="3+7-4+7" next="6" state="rrGrrrrryrrr"/>
+        <phase duration="3" name="3+7-4+8" next="7" state="rryrrrrryrrr"/>
+        <phase duration="3" name="3+8-4+8" next="7" state="rrrrrrGGyrrr"/>
+        <phase duration="3" name="4+7-4+8" next="7" state="GGyrrrrrrrrr"/>
+        <phase duration="3" name="4+8-1+5" next="0" state="yyrrrryyrrrr"/>
+    </tlLogic>
+
+    //NEMA-compliant Static/Actuated Timing Inputs
+    <tlLogic id="C1" offset="0" programID="NEMA" type="NEMA">
+        <param key="detector-length" value="30"/>
+        <param key="detector-length-left-turn-lane" value="20"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="80"/>
+
+        <param key="ring1" value="3,4,1,2"/>
+        <param key="ring2" value="7,8,5,6"/>
+        <param key="barrier-phases" value="4,8"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        
+
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="2" phaseNumber="7"  state="rrGrrrrrrrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="2" phaseNumber="3"  state="rrrrrrrrGrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" phaseNumber="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" phaseNumber="8"  state="rrrrrrGGrrrr"/>
+        <phase duration="99" minDur="8"   maxDur="15"  yellow="3" red="2" vehext="2" phaseNumber="1"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="8"   maxDur="15"  yellow="3" red="2" vehext="2" phaseNumber="5"  state="rrrrrrrrrrrG"/>
+        <phase duration="99" minDur="15"  maxDur="30"  yellow="3" red="2" vehext="2" phaseNumber="2"  state="rrrrrrrrrGGr"/>
+        <phase duration="99" minDur="15"  maxDur="30"  yellow="3" red="2" vehext="2" phaseNumber="6"  state="rrrGGrrrrrrr"/>
+        
+    </tlLogic>
+
+    //NEMA phase split
+    <tlLogic id="C2" offset="0" programID="NEMA" type="NEMA">
+        <param key="detector-length" value="30"/>
+        <param key="detector-length-left-turn-lane" value="20"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="80"/>
+
+        <param key="ring1" value="0,4,1,2"/>
+        <param key="ring2" value="0,4,0,6"/>
+        <param key="barrier-phases" value="4,4"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        
+
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" phaseNumber="4"  state="GGGrrrrrrrrr"/>
+        <phase duration="99" minDur="8"   maxDur="15"  yellow="3" red="2" vehext="2" phaseNumber="1"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="15"  maxDur="30"  yellow="3" red="2" vehext="2" phaseNumber="2"  state="rrrrrrrrrGGr"/>
+        <phase duration="99" minDur="15"  maxDur="30"  yellow="3" red="2" vehext="2" phaseNumber="6"  state="rrrGGrrrrrrr"/>
+        
+    </tlLogic>
+
+</add>

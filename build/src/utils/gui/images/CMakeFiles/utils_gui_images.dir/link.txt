@@ -1,0 +1,2 @@
+/bin/ar qc libutils_gui_images.a  CMakeFiles/utils_gui_images.dir/GUIIconSubSys.cpp.o CMakeFiles/utils_gui_images.dir/GUITextureSubSys.cpp.o CMakeFiles/utils_gui_images.dir/GUITexturesHelper.cpp.o
+/bin/ranlib libutils_gui_images.a

@@ -83,6 +83,7 @@ main(int argc, char** argv) {
     // give some application descriptions
     oc.setApplicationDescription("A microscopic, multi-modal traffic simulation.");
     oc.setApplicationName("sumo", "Eclipse SUMO sumo Version " VERSION_STRING);
+    std::cout << "tl24782 Line 86 in sumo_main.cpp" << std::endl;
     gSimulation = true;
     int ret = 0;
     MSNet* net = nullptr;

@@ -1,0 +1,97 @@
+<add>
+    <tlLogic id="B1" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-left-turn-lane" value="10"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="90"/>
+
+        <param key="ring1" value="3,4,1,2"/>
+        <param key="ring2" value="7,8,5,6"/>
+        <param key="barrier-phases" value="4,8"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="3"  state="rrrrrrrrGrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="7"  state="rrGrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="8"  state="rrrrrrGGrrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="1"  state="rrrrrrrrrrrG"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="5"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="2"  state="rrrGGrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="6"  state="rrrrrrrrrGGr"/>
+    </tlLogic>
+
+    <tlLogic id="B2" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-left-turn-lane" value="10"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="90"/>
+
+        <param key="ring1" value="3,4,1,2"/>
+        <param key="ring2" value="7,8,5,6"/>
+        <param key="barrier-phases" value="4,8"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="3"  state="rrrrrrrrGrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="7"  state="rrGrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="8"  state="rrrrrrGGrrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="1"  state="rrrrrrrrrrrG"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="5"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="2"  state="rrrGGrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="6"  state="rrrrrrrrrGGr"/>
+    </tlLogic>
+
+    <tlLogic id="C1" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-left-turn-lane" value="10"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="90"/>
+
+        <param key="ring1" value="3,4,1,2"/>
+        <param key="ring2" value="7,8,5,6"/>
+        <param key="barrier-phases" value="4,8"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="3"  state="rrrrrrrrGrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="7"  state="rrGrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="8"  state="rrrrrrGGrrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="1"  state="rrrrrrrrrrrG"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="5"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="2"  state="rrrGGrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="6"  state="rrrrrrrrrGGr"/>
+    </tlLogic>
+
+    <tlLogic id="C2" type="NEMA" programID="NEMA" offset="0">
+        <param key="detector-length" value="20"/>
+        <param key="detector-length-left-turn-lane" value="10"/>
+
+        <param key="coodiate-mode" value="1"/>
+        <param key="offset" value="0"/>
+        <param key="cycle-length" value="90"/>
+
+        <param key="ring1" value="3,4,1,2"/>
+        <param key="ring2" value="7,8,5,6"/>
+        <param key="barrier-phases" value="4,8"/>
+        <param key="coordinate-phases" value="2,6"/>
+
+        <param key="output-state-change" value="true"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="3"  state="rrrrrrrrGrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="7"  state="rrGrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="4"  state="GGrrrrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="8"  state="rrrrrrGGrrrr"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="1"  state="rrrrrrrrrrrG"/>
+        <phase duration="99" minDur="5"   maxDur="10"  yellow="3" red="2" vehext="1" name="5"  state="rrrrrGrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="2"  state="rrrGGrrrrrrr"/>
+        <phase duration="99" minDur="10"  maxDur="25"  yellow="3" red="2" vehext="2" name="6"  state="rrrrrrrrrGGr"/>
+    </tlLogic>
+</add>

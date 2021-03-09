@@ -1,0 +1,14 @@
+DQNAgent.py: agent class for dueling deep Q network and take action accordingly  
+environment.py: provides state information for the agent
+replayMemory.py: functions as the replay buffer for sample batch update nn
+nn_model.py: formulate the dueling deep Q network
+utils.py: provides the helper functions for the whole process
+train_settings.ini:control the sumo simulation parameters; and hyperparameters for the dueling DQN
+train_main.py: exucute the simulation for the DQN
+
+1. figure out how to use python to run sumo simulation and set up the associated parameters.
+2. Code the environment.py
+3. Code the DQNAgent.py
+4. Code the ini for train_settings
+5. Code the replayMemory.py and nn_model.py
+6. Set up the pre-timed plan before comparison

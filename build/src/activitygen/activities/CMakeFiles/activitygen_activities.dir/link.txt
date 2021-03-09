@@ -1,0 +1,2 @@
+/bin/ar qc libactivitygen_activities.a  CMakeFiles/activitygen_activities.dir/AGActivities.cpp.o CMakeFiles/activitygen_activities.dir/AGTrip.cpp.o CMakeFiles/activitygen_activities.dir/AGActivity.cpp.o CMakeFiles/activitygen_activities.dir/AGWorkAndSchool.cpp.o CMakeFiles/activitygen_activities.dir/AGFreeTime.cpp.o
+/bin/ranlib libactivitygen_activities.a

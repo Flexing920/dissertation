@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun 30 Aug 2020 09:56:28 PM CDT by Eclipse SUMO GUI Version 104d8d5c
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="MySUMOFile.net.xml"/>
+        <route-files value="random.rou.xml"/>
+        <additional-files value="NEMA.add.xml"/>
+    </input>
+
+    <processing>
+        <tls.actuated.show-detectors value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+</detector>

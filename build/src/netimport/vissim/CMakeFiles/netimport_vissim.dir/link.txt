@@ -1,0 +1,2 @@
+/bin/ar qc libnetimport_vissim.a  CMakeFiles/netimport_vissim.dir/NIImporter_Vissim.cpp.o
+/bin/ranlib libnetimport_vissim.a

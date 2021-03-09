@@ -1,0 +1,2 @@
+/bin/ar qc libnetedit_frames_common.a  CMakeFiles/netedit_frames_common.dir/GNEInspectorFrame.cpp.o CMakeFiles/netedit_frames_common.dir/GNESelectorFrame.cpp.o CMakeFiles/netedit_frames_common.dir/GNEElementSet.cpp.o CMakeFiles/netedit_frames_common.dir/GNEMatchAttribute.cpp.o CMakeFiles/netedit_frames_common.dir/GNEMatchGenericDataAttribute.cpp.o CMakeFiles/netedit_frames_common.dir/GNEDeleteFrame.cpp.o CMakeFiles/netedit_frames_common.dir/GNEMoveFrame.cpp.o
+/bin/ranlib libnetedit_frames_common.a

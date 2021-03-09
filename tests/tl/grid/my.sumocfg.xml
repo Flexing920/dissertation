@@ -1,0 +1,8 @@
+<configuration>
+    <input>
+        <net-file value="MySUMOFile.net.xml"/>
+        <route-files value="random.rou.xml"/>
+        <additional-files value="NEMA.add.xml"/>
+        <tls.actuated.show-detectors value="true"/>
+    </input>
+</configuration>

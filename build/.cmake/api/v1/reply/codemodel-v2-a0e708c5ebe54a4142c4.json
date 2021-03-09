@@ -1,0 +1,2460 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						87
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						12,
+						21,
+						31,
+						82,
+						84
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						29,
+						30,
+						31,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						69,
+						71,
+						72,
+						73,
+						74
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						16,
+						46,
+						68,
+						72,
+						73
+					]
+				},
+				{
+					"build" : "src/activitygen",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/activitygen",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/activitygen/activities",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/activitygen/activities",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/activitygen/city",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/activitygen/city",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/dfrouter",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/dfrouter",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/duarouter",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/duarouter",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/foreign",
+					"childIndexes" : 
+					[
+						8,
+						10,
+						11,
+						12
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/foreign"
+				},
+				{
+					"build" : "src/foreign/PHEMlight",
+					"childIndexes" : 
+					[
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "src/foreign/PHEMlight"
+				},
+				{
+					"build" : "src/foreign/PHEMlight/cpp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/foreign/PHEMlight/cpp",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/foreign/rtree",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "src/foreign/rtree"
+				},
+				{
+					"build" : "src/foreign/tcpip",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "src/foreign/tcpip",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "src/foreign/eulerspiral",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "src/foreign/eulerspiral",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "src/jtrrouter",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/jtrrouter",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "src/libsumo",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libsumo",
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"build" : "src/libtraci",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/libtraci",
+					"targetIndexes" : 
+					[
+						27,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "src/marouter",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/marouter",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "src/mesosim",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/mesosim",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "src/microsim",
+					"childIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/microsim",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "src/microsim/actions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/actions",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "src/microsim/cfmodels",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/cfmodels",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "src/microsim/devices",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/devices",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "src/microsim/engine",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/engine",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "src/microsim/lcmodels",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/lcmodels",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "src/microsim/logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/logging"
+				},
+				{
+					"build" : "src/microsim/output",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/output",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "src/microsim/traffic_lights",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/traffic_lights",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "src/microsim/transportables",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/transportables",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "src/microsim/trigger",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "src/microsim/trigger",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "src/netbuild",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netbuild",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "src/netgen",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netgen",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "src/netimport",
+					"childIndexes" : 
+					[
+						32
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netimport",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "src/netimport/vissim",
+					"childIndexes" : 
+					[
+						33,
+						34
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 0,
+					"source" : "src/netimport/vissim",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "src/netimport/vissim/tempstructs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/netimport/vissim/tempstructs",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "src/netimport/vissim/typeloader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/netimport/vissim/typeloader",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "src/netload",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netload",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "src/netwrite",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netwrite",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "src/od",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/od",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "src/osgview",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/osgview",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "src/polyconvert",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/polyconvert",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "src/router",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/router",
+					"targetIndexes" : 
+					[
+						71
+					]
+				},
+				{
+					"build" : "src/tools",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/tools",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "src/traci-server",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/traci-server",
+					"targetIndexes" : 
+					[
+						83
+					]
+				},
+				{
+					"build" : "src/traci_testclient",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/traci_testclient",
+					"targetIndexes" : 
+					[
+						0,
+						77,
+						78
+					]
+				},
+				{
+					"build" : "src/utils",
+					"childIndexes" : 
+					[
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/utils"
+				},
+				{
+					"build" : "src/utils/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/common",
+					"targetIndexes" : 
+					[
+						85
+					]
+				},
+				{
+					"build" : "src/utils/distribution",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/distribution",
+					"targetIndexes" : 
+					[
+						86
+					]
+				},
+				{
+					"build" : "src/utils/emissions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/emissions",
+					"targetIndexes" : 
+					[
+						87
+					]
+				},
+				{
+					"build" : "src/utils/geom",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/geom",
+					"targetIndexes" : 
+					[
+						89
+					]
+				},
+				{
+					"build" : "src/utils/importio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/importio",
+					"targetIndexes" : 
+					[
+						98
+					]
+				},
+				{
+					"build" : "src/utils/iodevices",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/iodevices",
+					"targetIndexes" : 
+					[
+						99
+					]
+				},
+				{
+					"build" : "src/utils/options",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/options",
+					"targetIndexes" : 
+					[
+						100
+					]
+				},
+				{
+					"build" : "src/utils/shapes",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/shapes",
+					"targetIndexes" : 
+					[
+						101
+					]
+				},
+				{
+					"build" : "src/utils/router",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/router"
+				},
+				{
+					"build" : "src/utils/traci",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/traci",
+					"targetIndexes" : 
+					[
+						102
+					]
+				},
+				{
+					"build" : "src/utils/traction_wire",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/traction_wire",
+					"targetIndexes" : 
+					[
+						103
+					]
+				},
+				{
+					"build" : "src/utils/vehicle",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/vehicle",
+					"targetIndexes" : 
+					[
+						104
+					]
+				},
+				{
+					"build" : "src/utils/xml",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/xml",
+					"targetIndexes" : 
+					[
+						105
+					]
+				},
+				{
+					"build" : "src/utils/foxtools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/foxtools",
+					"targetIndexes" : 
+					[
+						88
+					]
+				},
+				{
+					"build" : "src/utils/gui",
+					"childIndexes" : 
+					[
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui"
+				},
+				{
+					"build" : "src/utils/gui/div",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/div",
+					"targetIndexes" : 
+					[
+						91
+					]
+				},
+				{
+					"build" : "src/utils/gui/events",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/events"
+				},
+				{
+					"build" : "src/utils/gui/globjects",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/globjects",
+					"targetIndexes" : 
+					[
+						92
+					]
+				},
+				{
+					"build" : "src/utils/gui/images",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/images",
+					"targetIndexes" : 
+					[
+						93
+					]
+				},
+				{
+					"build" : "src/utils/gui/settings",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/settings",
+					"targetIndexes" : 
+					[
+						94
+					]
+				},
+				{
+					"build" : "src/utils/gui/tracker",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/tracker",
+					"targetIndexes" : 
+					[
+						96
+					]
+				},
+				{
+					"build" : "src/utils/gui/windows",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/windows",
+					"targetIndexes" : 
+					[
+						97
+					]
+				},
+				{
+					"build" : "src/utils/gui/cursors",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/cursors",
+					"targetIndexes" : 
+					[
+						90
+					]
+				},
+				{
+					"build" : "src/utils/gui/shortcuts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 0,
+					"source" : "src/utils/gui/shortcuts",
+					"targetIndexes" : 
+					[
+						95
+					]
+				},
+				{
+					"build" : "src/gui",
+					"childIndexes" : 
+					[
+						70
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/gui",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "src/gui/dialogs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 69,
+					"projectIndex" : 0,
+					"source" : "src/gui/dialogs",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "src/guinetload",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/guinetload",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "src/guisim",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/guisim",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "src/mesogui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/mesogui",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "src/netedit",
+					"childIndexes" : 
+					[
+						75,
+						76,
+						77,
+						82
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/netedit",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "src/netedit/changes",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "src/netedit/changes",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "src/netedit/dialogs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "src/netedit/dialogs",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "src/netedit/frames",
+					"childIndexes" : 
+					[
+						78,
+						79,
+						80,
+						81
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "src/netedit/frames",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "src/netedit/frames/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 0,
+					"source" : "src/netedit/frames/common",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "src/netedit/frames/network",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 0,
+					"source" : "src/netedit/frames/network",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "src/netedit/frames/demand",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 0,
+					"source" : "src/netedit/frames/demand",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "src/netedit/frames/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 0,
+					"source" : "src/netedit/frames/data",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "src/netedit/elements",
+					"childIndexes" : 
+					[
+						83,
+						84,
+						85,
+						86
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 74,
+					"projectIndex" : 0,
+					"source" : "src/netedit/elements",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "src/netedit/elements/network",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 82,
+					"projectIndex" : 0,
+					"source" : "src/netedit/elements/network",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "src/netedit/elements/additional",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 82,
+					"projectIndex" : 0,
+					"source" : "src/netedit/elements/additional",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "src/netedit/elements/demand",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 82,
+					"projectIndex" : 0,
+					"source" : "src/netedit/elements/demand",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "src/netedit/elements/data",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 82,
+					"projectIndex" : 0,
+					"source" : "src/netedit/elements/data",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "unittest",
+					"childIndexes" : 
+					[
+						88
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unittest"
+				},
+				{
+					"build" : "unittest/src",
+					"childIndexes" : 
+					[
+						89,
+						94,
+						95
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 87,
+					"projectIndex" : 0,
+					"source" : "unittest/src"
+				},
+				{
+					"build" : "unittest/src/utils",
+					"childIndexes" : 
+					[
+						90,
+						91,
+						92,
+						93
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 0,
+					"source" : "unittest/src/utils"
+				},
+				{
+					"build" : "unittest/src/utils/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 89,
+					"projectIndex" : 0,
+					"source" : "unittest/src/utils/common",
+					"targetIndexes" : 
+					[
+						74
+					]
+				},
+				{
+					"build" : "unittest/src/utils/geom",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 89,
+					"projectIndex" : 0,
+					"source" : "unittest/src/utils/geom",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "unittest/src/utils/foxtools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 89,
+					"projectIndex" : 0,
+					"source" : "unittest/src/utils/foxtools",
+					"targetIndexes" : 
+					[
+						75
+					]
+				},
+				{
+					"build" : "unittest/src/utils/threadpool",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 89,
+					"projectIndex" : 0,
+					"source" : "unittest/src/utils/threadpool",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "unittest/src/microsim",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 0,
+					"source" : "unittest/src/microsim",
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"build" : "unittest/src/netbuild",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 0,
+					"source" : "unittest/src/netbuild",
+					"targetIndexes" : 
+					[
+						80
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95
+					],
+					"name" : "SUMO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 43,
+					"id" : "TraCITestClient::@890f2a9e18ac16a1a9fd",
+					"jsonFile" : "target-TraCITestClient-Debug-26625304e1ffa834dea6.json",
+					"name" : "TraCITestClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "activitygen::@28b08eee746fddb274d0",
+					"jsonFile" : "target-activitygen-Debug-52f50071c70af7ec8a15.json",
+					"name" : "activitygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "activitygen_activities::@82ed77705844fe5f4f93",
+					"jsonFile" : "target-activitygen_activities-Debug-c2eb964b5408c797db74.json",
+					"name" : "activitygen_activities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "activitygen_city::@0fa760851ecd015edb31",
+					"jsonFile" : "target-activitygen_city-Debug-61aac672ad4f4d7e7209.json",
+					"name" : "activitygen_city",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "dfrouter::@011a1a2b739eb97fc007",
+					"jsonFile" : "target-dfrouter-Debug-650a96908370ee9159f7.json",
+					"name" : "dfrouter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-Debug-0c49661c2a464e1c7eb2.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distcheck-Debug-9642e123822921ab2ffb.json",
+					"name" : "distcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-Debug-8fc6a4bc075e8b1a44b9.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-Debug-b96a8699804ed5b1e1d7.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "duarouter::@f6d18069718c2a166279",
+					"jsonFile" : "target-duarouter-Debug-f7b4173d12607b3a3ab2.json",
+					"name" : "duarouter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "emissionsDrivingCycle::@de05559f4338c8534979",
+					"jsonFile" : "target-emissionsDrivingCycle-Debug-b0c8bc188ab0f0bd5455.json",
+					"name" : "emissionsDrivingCycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "emissionsMap::@de05559f4338c8534979",
+					"jsonFile" : "target-emissionsMap-Debug-c36691f961ee3dca2861.json",
+					"name" : "emissionsMap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-Debug-2d4a89ff303de3e61952.json",
+					"name" : "examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "foreign_eulerspiral::@569bc92a85a7a2a8769b",
+					"jsonFile" : "target-foreign_eulerspiral-Debug-a1949382f96f5cbc33f6.json",
+					"name" : "foreign_eulerspiral",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "foreign_phemlight::@ad89c79543570382d266",
+					"jsonFile" : "target-foreign_phemlight-Debug-8560fbe4c36bf5060bc8.json",
+					"name" : "foreign_phemlight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "foreign_tcpip::@be039331f01f96f36b33",
+					"jsonFile" : "target-foreign_tcpip-Debug-a05eed31fe4be002f1ca.json",
+					"name" : "foreign_tcpip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "generate-version-h::@145eef247bfb46b6828c",
+					"jsonFile" : "target-generate-version-h-Debug-c07fe430f903e0f7edbe.json",
+					"name" : "generate-version-h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "gui::@7675e61a69a6135e3026",
+					"jsonFile" : "target-gui-Debug-eb066df068b10aadd141.json",
+					"name" : "gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "gui_dialogs::@a914af569012d4faacbf",
+					"jsonFile" : "target-gui_dialogs-Debug-177847444c7e641ff176.json",
+					"name" : "gui_dialogs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "guinetload::@c4580aea2330c99f7b98",
+					"jsonFile" : "target-guinetload-Debug-42e07f40345df64b382b.json",
+					"name" : "guinetload",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "guisim::@546d46e2da24cd69d5c1",
+					"jsonFile" : "target-guisim-Debug-bf59c3e09f93b92b0cd7.json",
+					"name" : "guisim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "javadoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-javadoc-Debug-24114acbfba7e08e3ad6.json",
+					"name" : "javadoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "jtrrouter::@12a4a60271ae532d0799",
+					"jsonFile" : "target-jtrrouter-Debug-3110b1dceb11a3f5fdf7.json",
+					"name" : "jtrrouter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "libsumocpp::@03b71290cbf45e152f80",
+					"jsonFile" : "target-libsumocpp-Debug-ae658df710ec01270cf9.json",
+					"name" : "libsumocpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "libsumojni::@03b71290cbf45e152f80",
+					"jsonFile" : "target-libsumojni-Debug-ea6cfc7e94004a52802d.json",
+					"name" : "libsumojni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "libsumojni_swig_compilation::@03b71290cbf45e152f80",
+					"jsonFile" : "target-libsumojni_swig_compilation-Debug-fb1802882c49dc4cd410.json",
+					"name" : "libsumojni_swig_compilation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "libsumostatic::@03b71290cbf45e152f80",
+					"jsonFile" : "target-libsumostatic-Debug-ef8964c3775e4d4b1a9c.json",
+					"name" : "libsumostatic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libtracicpp::@5a7cd1bdb3e119ef2a98",
+					"jsonFile" : "target-libtracicpp-Debug-9b4316145ddde627c564.json",
+					"name" : "libtracicpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libtracijni::@5a7cd1bdb3e119ef2a98",
+					"jsonFile" : "target-libtracijni-Debug-d8f27514a08ee508c724.json",
+					"name" : "libtracijni",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libtracijni_swig_compilation::@5a7cd1bdb3e119ef2a98",
+					"jsonFile" : "target-libtracijni_swig_compilation-Debug-1862783e53d237133a43.json",
+					"name" : "libtracijni_swig_compilation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "libtracistatic::@5a7cd1bdb3e119ef2a98",
+					"jsonFile" : "target-libtracistatic-Debug-745864676b741583957a.json",
+					"name" : "libtracistatic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lisum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lisum-Debug-44718c7a9978f2e7eeff.json",
+					"name" : "lisum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "marouter::@e8f3a27fabaa9aa54c9b",
+					"jsonFile" : "target-marouter-Debug-96e999421cc299ea7e14.json",
+					"name" : "marouter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "mesogui::@98858c2fb98bd2cfeade",
+					"jsonFile" : "target-mesogui-Debug-ecd752e70b07c8df36a6.json",
+					"name" : "mesogui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "mesosim::@58104efe968653ea7c20",
+					"jsonFile" : "target-mesosim-Debug-12b7582e17642a213545.json",
+					"name" : "mesosim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "microsim::@e306a235347688b0ddec",
+					"jsonFile" : "target-microsim-Debug-3a4b152d914a42fdb7c0.json",
+					"name" : "microsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "microsim_actions::@4f4faf28cdbf9ae8190c",
+					"jsonFile" : "target-microsim_actions-Debug-de081bc0b882962a37f4.json",
+					"name" : "microsim_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "microsim_cfmodels::@0e8715206265e9cb165e",
+					"jsonFile" : "target-microsim_cfmodels-Debug-ea84796f5d1811d758e3.json",
+					"name" : "microsim_cfmodels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "microsim_devices::@fbb71fe6bcb45b079a2a",
+					"jsonFile" : "target-microsim_devices-Debug-7814de527876cf3f246b.json",
+					"name" : "microsim_devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "microsim_engine::@49f367821544ed26d73b",
+					"jsonFile" : "target-microsim_engine-Debug-f28ec53834dee3efc8b8.json",
+					"name" : "microsim_engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "microsim_lcmodels::@d7941eb48093fbdb8f84",
+					"jsonFile" : "target-microsim_lcmodels-Debug-172b5d4bb21f0ac4f3b9.json",
+					"name" : "microsim_lcmodels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "microsim_output::@40653fe1144cb750d8f7",
+					"jsonFile" : "target-microsim_output-Debug-4abd292bbe592c729575.json",
+					"name" : "microsim_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "microsim_traffic_lights::@6eacaf5005114980ea76",
+					"jsonFile" : "target-microsim_traffic_lights-Debug-979552accb84daa277c4.json",
+					"name" : "microsim_traffic_lights",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "microsim_transportables::@9b5dc000b574cb09851c",
+					"jsonFile" : "target-microsim_transportables-Debug-db8b539342d343bb7d55.json",
+					"name" : "microsim_transportables",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "microsim_trigger::@1b4699cb3ff492ae2613",
+					"jsonFile" : "target-microsim_trigger-Debug-57381fd1fd885199a966.json",
+					"name" : "microsim_trigger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "netbuild::@7edd8c8238c339de8979",
+					"jsonFile" : "target-netbuild-Debug-27fb8174a7e136225096.json",
+					"name" : "netbuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "netconvert::@145eef247bfb46b6828c",
+					"jsonFile" : "target-netconvert-Debug-517f3e2d9fcddf71c37e.json",
+					"name" : "netconvert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "netedit::@0c641fbcd1aa39d66e93",
+					"jsonFile" : "target-netedit-Debug-c4d73563ed420736421d.json",
+					"name" : "netedit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "netedit_changes::@78f64d9e629f3e162f5f",
+					"jsonFile" : "target-netedit_changes-Debug-db1318b11a1e836432ed.json",
+					"name" : "netedit_changes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "netedit_dialogs::@395d0052a096b4d769da",
+					"jsonFile" : "target-netedit_dialogs-Debug-e8d4ba67d37207b2165b.json",
+					"name" : "netedit_dialogs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "netedit_elements::@c6f33fed949f28c50cd0",
+					"jsonFile" : "target-netedit_elements-Debug-596df46a1c0014d966dc.json",
+					"name" : "netedit_elements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "netedit_elements_additional::@b70e72fd026c1659c616",
+					"jsonFile" : "target-netedit_elements_additional-Debug-01ba5bb2c8669072c87a.json",
+					"name" : "netedit_elements_additional",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "netedit_elements_data::@2563b127c10c3e922aa9",
+					"jsonFile" : "target-netedit_elements_data-Debug-8e223f82b6f28275983f.json",
+					"name" : "netedit_elements_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "netedit_elements_demand::@79c9c441b53394cda589",
+					"jsonFile" : "target-netedit_elements_demand-Debug-d4177c6c52236e25068b.json",
+					"name" : "netedit_elements_demand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "netedit_elements_network::@81fb8a3af01ea51c30b7",
+					"jsonFile" : "target-netedit_elements_network-Debug-b4ba0969d7a3e8c1423b.json",
+					"name" : "netedit_elements_network",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "netedit_frames::@de23e869ffe44dfd48c9",
+					"jsonFile" : "target-netedit_frames-Debug-cade2aa9a944777f4734.json",
+					"name" : "netedit_frames",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "netedit_frames_common::@61a8989330604f140d50",
+					"jsonFile" : "target-netedit_frames_common-Debug-56b1d6ba9408f7cb3880.json",
+					"name" : "netedit_frames_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "netedit_frames_data::@3beeab9bd22e9fea21c5",
+					"jsonFile" : "target-netedit_frames_data-Debug-f2e55c924bee95dc08cd.json",
+					"name" : "netedit_frames_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "netedit_frames_demand::@0e7fdd826041a9cf43ab",
+					"jsonFile" : "target-netedit_frames_demand-Debug-bb0ef8bbb4989faddca7.json",
+					"name" : "netedit_frames_demand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "netedit_frames_network::@d919294908d4c1d54fe0",
+					"jsonFile" : "target-netedit_frames_network-Debug-1f3a80c9cf8da1984f7c.json",
+					"name" : "netedit_frames_network",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "netgenerate::@6922566528eee768a819",
+					"jsonFile" : "target-netgenerate-Debug-f7d788be86c9a601e14e.json",
+					"name" : "netgenerate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "netimport::@93d61fb0f585bfb5b196",
+					"jsonFile" : "target-netimport-Debug-4114024c15dabe3ad3cf.json",
+					"name" : "netimport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "netimport_vissim::@f653440c8cfe57789530",
+					"jsonFile" : "target-netimport_vissim-Debug-2c4c0040877ec459a12b.json",
+					"name" : "netimport_vissim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "netimport_vissim_tempstructs::@93d1aa3b4eb1e023154c",
+					"jsonFile" : "target-netimport_vissim_tempstructs-Debug-e2d7934d371036301b35.json",
+					"name" : "netimport_vissim_tempstructs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "netimport_vissim_typeloader::@5c26b34950dddc48b4f2",
+					"jsonFile" : "target-netimport_vissim_typeloader-Debug-4ab60383f603a10f22aa.json",
+					"name" : "netimport_vissim_typeloader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "netload::@802f6b07b771099a1d63",
+					"jsonFile" : "target-netload-Debug-c1a79b4d51b3cdabda09.json",
+					"name" : "netload",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "netwrite::@cd10d1e5336ea5f04bab",
+					"jsonFile" : "target-netwrite-Debug-8cb606a602b1082a9bcf.json",
+					"name" : "netwrite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "od::@0e340ca79b2b410143ff",
+					"jsonFile" : "target-od-Debug-56b1d7cddbc806a16e67.json",
+					"name" : "od",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "od2trips::@145eef247bfb46b6828c",
+					"jsonFile" : "target-od2trips-Debug-3c15a73c4e3a2e9a3fde.json",
+					"name" : "od2trips",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "osgview::@d1d273b5d4c106e79001",
+					"jsonFile" : "target-osgview-Debug-d507a06745199673b828.json",
+					"name" : "osgview",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "polyconvert::@5450a0523ba92a0c3bbd",
+					"jsonFile" : "target-polyconvert-Debug-c95addf03d35fe23458a.json",
+					"name" : "polyconvert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "router::@243a5dd6aadb3fe32c4b",
+					"jsonFile" : "target-router-Debug-7ca36f249ec3f432c6c5.json",
+					"name" : "router",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sumo::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sumo-Debug-97ea85fd3b7461e9f8a3.json",
+					"name" : "sumo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sumo-gui::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sumo-gui-Debug-a13da6c7f871fb703ae6.json",
+					"name" : "sumo-gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "testcommon::@2528445dbca1f6319af7",
+					"jsonFile" : "target-testcommon-Debug-d593b2db09b9ff7b55db.json",
+					"name" : "testcommon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 92,
+					"id" : "testfoxtools::@e8a19a98bb5715a56a2c",
+					"jsonFile" : "target-testfoxtools-Debug-e4b19c32960fa74d1e68.json",
+					"name" : "testfoxtools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "testgeom::@8b128cc3e06d21526cb0",
+					"jsonFile" : "target-testgeom-Debug-b2a4a280bc960ce41e13.json",
+					"name" : "testgeom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "testlibsumo::@890f2a9e18ac16a1a9fd",
+					"jsonFile" : "target-testlibsumo-Debug-ad8dbd680d300c5b05ee.json",
+					"name" : "testlibsumo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "testlibsumostatic::@890f2a9e18ac16a1a9fd",
+					"jsonFile" : "target-testlibsumostatic-Debug-c5af59627904abca87fe.json",
+					"name" : "testlibsumostatic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "testmicrosim::@857b3c6039990b24256e",
+					"jsonFile" : "target-testmicrosim-Debug-aea2cb4d5a6712d87d92.json",
+					"name" : "testmicrosim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "testnetbuild::@995fb47ef63054fc0332",
+					"jsonFile" : "target-testnetbuild-Debug-20236b161c18ee85ae3f.json",
+					"name" : "testnetbuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 93,
+					"id" : "testthreadpool::@5477cdc2ec718c24f691",
+					"jsonFile" : "target-testthreadpool-Debug-e8e90054fcdf27250cf4.json",
+					"name" : "testthreadpool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traas-Debug-34c6743051a605b7f114.json",
+					"name" : "traas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "traciserver::@3d62466cd6f79130c764",
+					"jsonFile" : "target-traciserver-Debug-eb2ff10acbea5c6e0f5b.json",
+					"name" : "traciserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "userdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-userdoc-Debug-bab47687a71b9e8e2e8e.json",
+					"name" : "userdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "utils_common::@aa6ce2469be8f0113b15",
+					"jsonFile" : "target-utils_common-Debug-343f5292291b3ec2cf93.json",
+					"name" : "utils_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "utils_distribution::@8b8c75e319860c687456",
+					"jsonFile" : "target-utils_distribution-Debug-1ee172d01fa81252195d.json",
+					"name" : "utils_distribution",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "utils_emissions::@387d21a620538c10c133",
+					"jsonFile" : "target-utils_emissions-Debug-cfd4920bb96b7374a3a2.json",
+					"name" : "utils_emissions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "utils_foxtools::@d1278fd2bf3447c2c052",
+					"jsonFile" : "target-utils_foxtools-Debug-5334c6e61a0a41d521e9.json",
+					"name" : "utils_foxtools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "utils_geom::@1683f14d20265f24af7d",
+					"jsonFile" : "target-utils_geom-Debug-2b304e0637a72dfb6ae7.json",
+					"name" : "utils_geom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "utils_gui_cursors::@d41520bd082a6568c87e",
+					"jsonFile" : "target-utils_gui_cursors-Debug-64e6417ca101c8a243e4.json",
+					"name" : "utils_gui_cursors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "utils_gui_div::@941a19970d8187e7bb61",
+					"jsonFile" : "target-utils_gui_div-Debug-3e46ebbfccd68b636fa2.json",
+					"name" : "utils_gui_div",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "utils_gui_globjects::@8dc2ad60b1ebf5da77e2",
+					"jsonFile" : "target-utils_gui_globjects-Debug-027000cb92a6a3c9c4c8.json",
+					"name" : "utils_gui_globjects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "utils_gui_images::@608e575b09b292602373",
+					"jsonFile" : "target-utils_gui_images-Debug-e090e4c806ccc1e1d1b2.json",
+					"name" : "utils_gui_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "utils_gui_settings::@fd501fed8d1718def94b",
+					"jsonFile" : "target-utils_gui_settings-Debug-a3e7266a612c3b8c0129.json",
+					"name" : "utils_gui_settings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "utils_gui_shortcuts::@db0165078f21509ba8ac",
+					"jsonFile" : "target-utils_gui_shortcuts-Debug-ad54d967aacc5d8f4450.json",
+					"name" : "utils_gui_shortcuts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "utils_gui_tracker::@bfa59e9193a2eed1ae75",
+					"jsonFile" : "target-utils_gui_tracker-Debug-e5f39824a2885e2dc705.json",
+					"name" : "utils_gui_tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "utils_gui_windows::@5ec5bf011437f7bb4e33",
+					"jsonFile" : "target-utils_gui_windows-Debug-d25eb2afc74edd1dba25.json",
+					"name" : "utils_gui_windows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "utils_importio::@96cfbbdd09d1c5d37862",
+					"jsonFile" : "target-utils_importio-Debug-7710d810f3045c2f609d.json",
+					"name" : "utils_importio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "utils_iodevices::@03a9ec57b4fb339063c5",
+					"jsonFile" : "target-utils_iodevices-Debug-deba6a2f18c245d9d8e5.json",
+					"name" : "utils_iodevices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "utils_options::@cbb000b60d298a6a79ae",
+					"jsonFile" : "target-utils_options-Debug-3fa9d1736a4099400a65.json",
+					"name" : "utils_options",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "utils_shapes::@2b2012ad5e1910fad22f",
+					"jsonFile" : "target-utils_shapes-Debug-aa4898f9b48a04041288.json",
+					"name" : "utils_shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "utils_traci::@52ba7f6eefe5ea4d6552",
+					"jsonFile" : "target-utils_traci-Debug-281c36de4458b596e5a8.json",
+					"name" : "utils_traci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "utils_traction_wire::@7bbf983b2a5a4dc274b4",
+					"jsonFile" : "target-utils_traction_wire-Debug-1e81b53893b79e05dfbe.json",
+					"name" : "utils_traction_wire",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "utils_vehicle::@38b0630b89782444a57e",
+					"jsonFile" : "target-utils_vehicle-Debug-684f140b0877c5eb05d6.json",
+					"name" : "utils_vehicle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "utils_xml::@c46e5d078dc25fdda815",
+					"jsonFile" : "target-utils_xml-Debug-7023c75c6eb05fe1a542.json",
+					"name" : "utils_xml",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tl/sumo/build",
+		"source" : "/home/tl/sumo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,684 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/tl/sumo/bin/sumo-guiD"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 334,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 428,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 429,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 341,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 377,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 411,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -pthread -Wall -pedantic -Wextra -g -D_DEBUG -fPIE   -I/usr/include/fox-1.6"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "FLOAT_MATH_FUNCTIONS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/tl/sumo/build/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/tl/sumo/src"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/usr/include/gdal"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "generate-version-h::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "foreign_phemlight::@ad89c79543570382d266"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "foreign_tcpip::@be039331f01f96f36b33"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "libsumostatic::@03b71290cbf45e152f80"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mesosim::@58104efe968653ea7c20"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim::@e306a235347688b0ddec"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_actions::@4f4faf28cdbf9ae8190c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_cfmodels::@0e8715206265e9cb165e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_devices::@fbb71fe6bcb45b079a2a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_engine::@49f367821544ed26d73b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_lcmodels::@d7941eb48093fbdb8f84"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_output::@40653fe1144cb750d8f7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_traffic_lights::@6eacaf5005114980ea76"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_transportables::@9b5dc000b574cb09851c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "microsim_trigger::@1b4699cb3ff492ae2613"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "netload::@802f6b07b771099a1d63"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "osgview::@d1d273b5d4c106e79001"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "traciserver::@3d62466cd6f79130c764"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_common::@aa6ce2469be8f0113b15"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_distribution::@8b8c75e319860c687456"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_emissions::@387d21a620538c10c133"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_geom::@1683f14d20265f24af7d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_importio::@96cfbbdd09d1c5d37862"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_iodevices::@03a9ec57b4fb339063c5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_options::@cbb000b60d298a6a79ae"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_shapes::@2b2012ad5e1910fad22f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_traction_wire::@7bbf983b2a5a4dc274b4"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_vehicle::@38b0630b89782444a57e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_xml::@c46e5d078dc25fdda815"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_foxtools::@d1278fd2bf3447c2c052"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_div::@941a19970d8187e7bb61"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_globjects::@8dc2ad60b1ebf5da77e2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_images::@608e575b09b292602373"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_settings::@fd501fed8d1718def94b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_tracker::@bfa59e9193a2eed1ae75"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_windows::@5ec5bf011437f7bb4e33"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_cursors::@d41520bd082a6568c87e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "utils_gui_shortcuts::@db0165078f21509ba8ac"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gui::@7675e61a69a6135e3026"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "gui_dialogs::@a914af569012d4faacbf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "guinetload::@c4580aea2330c99f7b98"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "guisim::@546d46e2da24cd69d5c1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mesogui::@98858c2fb98bd2cfeade"
+		}
+	],
+	"id" : "sumo-gui::@145eef247bfb46b6828c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -pthread -Wall -pedantic -Wextra -g -D_DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "gui/libgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "guinetload/libguinetload.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "guisim/libguisim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "gui/libgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "gui/dialogs/libgui_dialogs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/windows/libutils_gui_windows.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/globjects/libutils_gui_globjects.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/div/libutils_gui_div.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/settings/libutils_gui_settings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/images/libutils_gui_images.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/cursors/libutils_gui_cursors.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/shortcuts/libutils_gui_shortcuts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/gui/tracker/libutils_gui_tracker.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/foxtools/libutils_foxtools.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/traction_wire/libutils_traction_wire.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "osgview/libosgview.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/libmicrosim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "traci-server/libtraciserver.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libsumo/liblibsumostatic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "traci-server/libtraciserver.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "netload/libnetload.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/cfmodels/libmicrosim_cfmodels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/engine/libmicrosim_engine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/lcmodels/libmicrosim_lcmodels.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/devices/libmicrosim_devices.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/trigger/libmicrosim_trigger.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/output/libmicrosim_output.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/transportables/libmicrosim_transportables.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/actions/libmicrosim_actions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/traffic_lights/libmicrosim_traffic_lights.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "microsim/libmicrosim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "mesosim/libmesosim.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/emissions/libutils_emissions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "foreign/PHEMlight/cpp/libforeign_phemlight.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/vehicle/libutils_vehicle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/distribution/libutils_distribution.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/shapes/libutils_shapes.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/options/libutils_options.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/xml/libutils_xml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/geom/libutils_geom.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/common/libutils_common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/importio/libutils_importio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/iodevices/libutils_iodevices.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "utils/traction_wire/libutils_traction_wire.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "foreign/tcpip/libforeign_tcpip.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lxerces-c",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lproj",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-L/usr/lib/x86_64-linux-gnu -lFOX-1.6 -lX11 -lXext -lfreetype -lfontconfig -lXft -lXcursor -lfreetype -lfontconfig -lfreetype -lGL -lGLU -ldl -lpthread -lrt -ljpeg -lpng -ltiff -lz -lGLU -lGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "mesogui/libmesogui.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgdal",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavformat",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavcodec",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavutil",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lswscale",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosgGA.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosgViewer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosgUtil.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosgDB.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosgText.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libosg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libOpenThreads.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgl2ps",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sumo-gui",
+	"nameOnDisk" : "sumo-guiD",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/guisim_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/sumo-gui.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
