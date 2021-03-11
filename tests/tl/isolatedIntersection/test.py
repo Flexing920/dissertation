@@ -1,4 +1,3 @@
-import numpy as np
-
-a = np.ndarray((1,2,3))
-print(a.shape)
+a = False
+b = (a == False) ? False : True
+print(b)

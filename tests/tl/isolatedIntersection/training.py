@@ -1,80 +1,121 @@
-from __future__ import absolute_import
-from __future__ import print_function
+import os, sys, timeit
 
-import os
-import datetime
-from shutil import copyfile
+# import traci
+if 'SUMO_HOME' in os.environ:
+    tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
+    sys.path.append(tools)
+else:
+    sys.exit("please declare environment variable 'SUMO_HOME'")
 
-from training_simulation import Simulation
-# from generator import TrafficGenerator
-from replay import ReplayBuffer
-from model_dqn import TrainModel
-from visualization import Visualization
-from utils import import_train_configuration, set_sumo, set_train_path
+from sumolib import checkBinary  # Checks for the binary in environ vars
+import traci
+
+# constant define
+GUI = True
+CUR_DIR = os.getcwd()
+INPUT_DIR = os.path.join(CUR_DIR, "data")
+print(INPUT_DIR)
+TRAIN_PATH = os.path.join(CUR_DIR, "train")
+TEST_PATH = os.path.join(CUR_DIR, "test")
+MODEL_PATH = os.path.join(CUR_DIR, "model")
+SUMOCFG_FILE_NAME = "my.sumocfg"
+MAX_STEPS = 300 # seconds
+
+# network parameters
+incoming_edge_ids = ["WC", "SC", "EC", "NC"]
+outgoing_edge_ids = ["CW", "CS", "CE", "CN"]
+
+# DQN parameters
+EPISODES = 3
+
+# define the phase index
+PHASE_NS_GREEN = 0
+PHASE_NS_YELLOW = 1
+PHASE_EW_GREEN = 2
+PHASE_EW_YELLOW = 3
+
+class Simulation:
+
+    def __init__(self, sumo_cmd, max_steps):
+        self._sumo_cmd = sumo_cmd
+        self._max_steps = max_steps
+        self._step = 0
+        self._cumulative_wait_store = []
+
+
+    def run(self, episode):
+        start_time = timeit.default_timer()
+        traci.start(self._sumo_cmd)
+
+        self._step = 0
+        self._waiting_times = {}
+        self._sum_waiting_time = 0
+        self._sum_queue_length = 0
+        old_total_waiting_time = 0
+
+        print("Simulating...")
+        while traci.simulation.getMinExpectedNumber() > 0:
+            traci.simulationStep()
+            current_total_waiting_time = self.get_waiting_time(incoming_edge_ids)
+            print(current_total_waiting_time)
+            self._step += 1
+        traci.close()
+        simulation_time = round(timeit.default_timer() - start_time)
+        print(f"Simulation time: {simulation_time}")
+
+    def get_waiting_time(self, incoming_edges):
+        car_ids = traci.vehicle.getIDList()
+        for car_id in car_ids:
+            waiting_time = traci.vehicle.getAccumulatedWaitingTime(car_id)
+            edge_id = traci.vehicle.getRoadID(car_id)
+            if edge_id in incoming_edge_ids:
+                self._waiting_times[car_id] = waiting_time
+            else:
+                if car_id in self._waiting_times:
+                    del self._waiting_times[car_id]
+        total_waiting_time = sum(self._waiting_times.values())
+        return total_waiting_time
+
+    def get_queue_length(self, incoming_edges):
+        # get the maximum queue length from each incoming lanes for the max-pressure method
+        
+class replay:
+    pass
+
+class DQN:
+    pass
+
+class DoubleDQN:
+    pass
+
+class DuelingDQN:
+    pass
+
+# helper functions
+def set_sumo_cmd(GUI, INPUT_DIR, SUMOCFG_FILE_NAME, MAX_STEPS):
+    # whether use gui 
+    if GUI == False:
+        sumoBinary = checkBinary('sumo')
+    else:
+        sumoBinary = checkBinary('sumo-gui')
+
+
+    # set the cmd for calling sumo
+    cmd = [sumoBinary, "-c", os.path.join(INPUT_DIR, SUMOCFG_FILE_NAME),"--no-step-log", "true", "--waiting-time-memory", str(MAX_STEPS)]
+
+    return cmd
 
 
 if __name__ == "__main__":
 
-    config = import_train_configuration(config_file='training_settings.ini')
-    sumo_cmd = set_sumo(config['gui'], config['sumocfg_file_name'], config['max_steps'])
-    path = set_train_path(config['models_path_name'])
+    sumo_cmd = set_sumo_cmd(GUI, INPUT_DIR, SUMOCFG_FILE_NAME, MAX_STEPS)
+    print(sumo_cmd)
+    Simulation = Simulation(sumo_cmd, MAX_STEPS)
 
-    Model = TrainModel(
-        config['num_layers'], 
-        config['num_nodes'], 
-        config['batch_size'], 
-        config['learning_rate'], 
-        input_dim=config['num_states'], 
-        output_dim=config['num_actions']
-    )
-
-    Memory = ReplayBuffer(
-        config['mem_size_max'], 
-        config['mem_size_min']
-    )
-
-    # TrafficGen = TrafficGenerator(
-    #     config['max_steps'], 
-    #     config['n_cars_generated']
-    # )
-
-    Visualization = Visualization(
-        path, 
-        dpi=96
-    )
-        
-    Simulation = Simulation(
-        Model,
-        Memory,
-        # TrafficGen,
-        sumo_cmd,
-        config['gamma'],
-        config['max_steps'],
-        config['green_duration'],
-        config['yellow_duration'],
-        config['num_states'],
-        config['num_actions'],
-        config['training_epochs']
-    )
-    
     episode = 0
-    timestamp_start = datetime.datetime.now()
-    
-    while episode < config['total_episodes']:
-        print('\n----- Episode', str(episode+1), 'of', str(config['total_episodes']))
-        epsilon = 1.0 - (episode / config['total_episodes'])  # set the epsilon for this episode according to epsilon-greedy policy
-        simulation_time, training_time = Simulation.run(episode, epsilon)  # run the simulation
-        print('Simulation time:', simulation_time, 's - Training time:', training_time, 's - Total:', round(simulation_time+training_time, 1), 's')
+    while episode < EPISODES:
+        Simulation.run(episode)
+        print(f"Check with episode: {episode}")
         episode += 1
 
-    print("\n----- Start time:", timestamp_start)
-    print("----- End time:", datetime.datetime.now())
-    print("----- Session info saved at:", path)
-
-    Model.save_model(path)
-
-    copyfile(src='training_settings.ini', dst=os.path.join(path, 'training_settings.ini'))
-
-    Visualization.save_data_and_plot(data=Simulation.reward_store, filename='reward', xlabel='Episode', ylabel='Cumulative negative reward')
-    Visualization.save_data_and_plot(data=Simulation.cumulative_wait_store, filename='delay', xlabel='Episode', ylabel='Cumulative delay (s)')
-    Visualization.save_data_and_plot(data=Simulation.avg_queue_length_store, filename='queue', xlabel='Episode', ylabel='Average queue length (vehicles)')
+    print("done")
