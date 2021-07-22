@@ -1,0 +1,8 @@
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="random.rou.xml"/>
+
+    </input>
+
+</configuration>

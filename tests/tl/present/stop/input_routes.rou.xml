@@ -1,0 +1,19 @@
+<routes>
+    <vType id="t0" accel="0.8" decel="4.5" sigma="1" length="10" maxSpeed="30"/>
+    <vType id="t1" accel="0.8" decel="4.5" sigma="1" length="5" maxSpeed="50"/>
+    <route id="r0" edges="beg middle end"/>
+
+    <vehicle id="v0" type="t0" route="r0" depart="0">
+        <stop lane="middle_0" duration="90" endPos="30" parking="false" />
+    </vehicle>
+
+    <vehicle id="v1" type="t1" route="r0" depart="5">
+        <stop lane="middle_1" duration="90" endPos="90" parking="false" />
+    </vehicle>
+    <vehicle id="v2" type="t1" route="r0" depart="7">
+        <stop lane="middle_2" duration="90" endPos="90" parking="false" />
+    </vehicle>
+    <vehicle id="v3" type="t1" route="r0" depart="15"></vehicle>
+    <vehicle id="v5" type="t1" route="r0" depart="25"></vehicle>
+
+</routes>

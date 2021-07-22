@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Nov 12 14:18:11 2019 by Eclipse SUMO duarouter Version v1_3_1+0801-fdab291c73
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="dualring2.net.xml"/>
+        <route-files value="random.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="random.rou.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="t0" accel="0.8" decel="4.5" sigma="1" length="5" maxSpeed="30"/>
+    <route id="r0" edges="WC CE"/>
+
+    <vehicle id="v0" type="t0" route="r0" depart="0"></vehicle>
+    <vehicle id="v1" type="t0" route="r0" depart="10"></vehicle>
+
+</routes>

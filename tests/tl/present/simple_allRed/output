@@ -1,0 +1,3234 @@
+Loading configuration ... done.
+Print to check the parameter reading from NEMA timing input: 
+myDetectorLength = 30.00
+myLeftTurnLaneDetectorLength = 20.00
+coordinateMode = 1
+myOffset = 0.00
+myCycleLength = 80.00
+myRing1 = 3,4,1,2
+myRing2 = 7,8,5,6
+myBarriers = 4,8
+myCoordinates = 2,6
+myOutputState = 1
+myFile = C
+myShowDetectors = 1
+Reach the end of the param checks...
+3	4	1	2	
+7	8	5	6	
+4	8	
+2	6	
+R1Phase = 3
+R2Phase = 7
+minGreen: 	8.00	15.00	5.00	10.00	8.00	15.00	5.00	10.00	
+maxGreen: 	15.00	30.00	10.00	25.00	15.00	30.00	10.00	25.00	
+yellows: 	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	
+reds: 	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	
+vehexts: 	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	
+expectedDur: 	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+phaseStartTime: 	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+Index = 3 and its state = rrrrrrrrGrrr
+Index = 7 and its state = rrGrrrrrrrrr
+Index = 4 and its state = GGrrrrrrrrrr
+Index = 8 and its state = rrrrrrGGrrrr
+Index = 1 and its state = rrrrrGrrrrrr
+Index = 5 and its state = rrrrrrrrrrrG
+Index = 2 and its state = rrrrrrrrrGGr
+Index = 6 and its state = rrrGGrrrrrrr
+NEMA_phase_index = 1
+TLS_C_E2DetectorOn_EC_1
+NEMA_phase_index = 2
+TLS_C_E2DetectorOn_WC_0
+NEMA_phase_index = 3
+TLS_C_E2DetectorOn_SC_1
+NEMA_phase_index = 4
+TLS_C_E2DetectorOn_NC_0
+NEMA_phase_index = 5
+TLS_C_E2DetectorOn_WC_1
+NEMA_phase_index = 6
+TLS_C_E2DetectorOn_EC_0
+NEMA_phase_index = 7
+TLS_C_E2DetectorOn_NC_1
+NEMA_phase_index = 8
+TLS_C_E2DetectorOn_SC_0
+You reach the end of the init()
+Step #0.00---------------------------------------------------------------------------
+Now = 0.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+ (0ms ?*RT. ?UPS, vehicles TOT 1 ACT 1 BUF 0)                                   ---------------------------------------------------------------------------
+Now = 1.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 2.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 3.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 4.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 5.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 6.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 7.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 8.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 9.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 10.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 11.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 12.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 13.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 14.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 15.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 16.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 17.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 18.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 19.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 20.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 21.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 22.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 23.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 24.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 25.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 26.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 27.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 28.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 29.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 30.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 31.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 32.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 33.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrry
+newState = rrrrryrrrrry
+---------------------------------------------------------------------------
+Now = 34.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrry
+newState = rrrrryrrrrry
+---------------------------------------------------------------------------
+Now = 35.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrry
+newState = rrrrryrrrrry
+---------------------------------------------------------------------------
+Now = 36.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 37.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 38.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 39.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 40.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 41.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 42.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 43.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 44.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 45.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 46.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 47.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 48.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 49.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 50.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 51.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 52.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 53.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 54.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 55.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 56.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 57.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 58.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 59.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 60.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 61.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 62.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 63.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 64.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 65.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 66.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 67.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 68.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 69.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 70.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 71.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 72.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 73.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 74.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 75.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 76.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 77.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 78.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 79.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 80.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 81.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 82.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 83.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 84.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 85.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 86.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 87.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 88.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 89.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 90.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 91.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 92.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 93.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 94.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 95.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 96.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 97.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 98.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 99.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+Step #100.00---------------------------------------------------------------------------
+Now = 100.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+ (0ms ?*RT. ?UPS, vehicles TOT 65 ACT 46 BUF 25)                              ---------------------------------------------------------------------------
+Now = 101.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 102.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 103.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 104.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 105.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 106.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 107.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 108.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 109.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 110.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 111.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 112.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 113.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 114.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 115.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 116.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 117.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 118.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 119.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 120.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 121.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 122.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 123.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 124.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 125.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 126.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 127.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 128.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 129.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 130.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 131.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 132.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 133.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 134.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 135.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 136.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 137.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 138.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 139.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 140.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 141.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 142.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 143.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 144.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 145.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 146.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 147.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 148.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 149.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 150.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 151.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 152.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 153.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 154.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 155.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 156.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 157.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 158.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 159.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 160.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 161.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 162.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 163.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 164.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 165.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 166.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 167.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 168.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 169.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 170.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 171.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 172.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 173.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 174.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 175.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 176.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 177.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 178.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 179.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 180.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 181.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 182.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 183.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 184.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 185.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 186.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 187.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 188.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 189.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 190.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 191.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 192.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 193.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 194.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 195.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 196.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 197.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 198.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 199.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+Step #200.00---------------------------------------------------------------------------
+Now = 200.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+ (0ms ?*RT. ?UPS, vehicles TOT 82 ACT 37 BUF 8)                               ---------------------------------------------------------------------------
+Now = 201.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 202.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 203.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 204.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 205.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 206.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 207.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 208.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 209.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 210.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 211.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 212.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 213.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 214.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 215.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 216.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 217.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 218.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 219.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 220.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 221.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 222.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 223.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 224.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 225.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 226.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 227.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 228.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 229.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 230.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 231.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 232.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 233.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 234.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 235.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 236.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 237.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 238.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 239.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 240.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 241.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 242.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 243.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 244.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 245.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 246.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 247.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 248.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 249.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 250.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 251.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 252.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 253.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 254.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 255.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 256.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 257.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 258.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 259.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 260.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 261.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 262.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 263.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 264.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 265.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 266.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 267.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 268.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 269.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 270.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 271.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 272.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 273.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 274.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 275.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 276.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 277.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 278.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 279.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 280.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 281.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 282.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 283.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 284.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 285.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 286.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 287.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 288.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 289.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 290.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 291.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 292.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 293.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 294.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 295.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 296.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 297.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 298.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 299.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+Step #300.00---------------------------------------------------------------------------
+Now = 300.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+ (0ms ?*RT. ?UPS, vehicles TOT 90 ACT 19 BUF 0)                               ---------------------------------------------------------------------------
+Now = 301.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 302.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 303.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 304.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 305.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 306.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 307.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 308.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 309.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 310.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 311.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 312.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 313.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 314.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 315.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 316.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 317.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 318.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 319.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 320.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 321.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 322.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 323.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 324.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 325.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 326.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 327.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 328.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 329.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 330.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 331.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 332.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 333.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 334.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 335.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 336.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 337.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 338.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 339.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 340.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 341.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 342.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 343.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 344.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 345.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 346.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 347.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 348.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 349.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 350.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 351.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 352.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 353.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 354.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 355.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 356.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 357.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 358.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 359.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 360.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 361.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 362.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 363.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 364.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 365.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 366.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 367.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 368.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 369.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 370.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 371.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 372.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 373.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 374.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 375.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 376.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 377.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 378.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 379.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 380.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 381.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 382.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 383.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 384.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 385.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 386.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 387.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 388.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 389.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 390.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 391.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 392.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 393.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 394.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 395.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 396.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 397.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 398.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 399.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+Step #400.00---------------------------------------------------------------------------
+Now = 400.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+ (0ms ?*RT. ?UPS, vehicles TOT 90 ACT 12 BUF 0)                               ---------------------------------------------------------------------------
+Now = 401.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 402.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 403.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 404.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 405.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 406.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 407.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 408.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 409.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 410.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 411.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 412.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 413.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 414.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 415.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 416.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 417.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 418.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 419.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 420.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 421.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 422.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 423.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 424.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 425.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 426.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 427.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 428.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 429.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 430.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 431.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 432.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 433.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 434.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 435.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 436.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 437.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 438.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 439.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 440.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 441.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 442.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 443.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 444.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 445.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 446.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 447.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 448.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 449.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 450.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 451.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 452.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 453.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 454.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 455.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 456.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 457.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 458.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 459.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 460.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 461.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 462.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 463.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 464.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 465.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 466.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 467.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 468.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 469.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 470.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 471.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 472.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 473.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 474.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 475.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 476.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 477.00
+s1 = rrrrrrrrrGGr and R1RYG = 0
+s2 = rrrGGrrrrrrr and R2RYG = 0
+s1 = rrrrrrrrryyr and s2 = rrryyrrrrrrr
+newState = rrryyrrrryyr
+---------------------------------------------------------------------------
+Now = 478.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 479.00
+s1 = rrrrrrrrrGGr and R1RYG = -1
+s2 = rrrGGrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 480.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 481.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 482.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 483.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 484.00
+s1 = rrrrrrrrGrrr and R1RYG = 1
+s2 = rrGrrrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrGrrr and s2 = rrGrrrrrrrrr
+newState = rrGrrrrrGrrr
+---------------------------------------------------------------------------
+Now = 485.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 486.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 487.00
+s1 = rrrrrrrrGrrr and R1RYG = 0
+s2 = rrGrrrrrrrrr and R2RYG = 0
+s1 = rrrrrrrryrrr and s2 = rryrrrrrrrrr
+newState = rryrrrrryrrr
+---------------------------------------------------------------------------
+Now = 488.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 489.00
+s1 = rrrrrrrrGrrr and R1RYG = -1
+s2 = rrGrrrrrrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 490.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 491.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 492.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 493.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 494.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 495.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 496.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 497.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 498.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+---------------------------------------------------------------------------
+Now = 499.00
+s1 = GGrrrrrrrrrr and R1RYG = 1
+s2 = rrrrrrGGrrrr and R2RYG = 1
+s1 = GGrrrrrrrrrr and s2 = rrrrrrGGrrrr
+newState = GGrrrrGGrrrr
+Step #500.00---------------------------------------------------------------------------
+Now = 500.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+ (0ms ?*RT. ?UPS, vehicles TOT 90 ACT 4 BUF 0)                                ---------------------------------------------------------------------------
+Now = 501.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 502.00
+s1 = GGrrrrrrrrrr and R1RYG = 0
+s2 = rrrrrrGGrrrr and R2RYG = 0
+s1 = yyrrrrrrrrrr and s2 = rrrrrryyrrrr
+newState = yyrrrryyrrrr
+---------------------------------------------------------------------------
+Now = 503.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 504.00
+s1 = GGrrrrrrrrrr and R1RYG = -1
+s2 = rrrrrrGGrrrr and R2RYG = -1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrrrr
+---------------------------------------------------------------------------
+Now = 505.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 506.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 507.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 508.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 509.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 510.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 511.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 512.00
+s1 = rrrrrGrrrrrr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrGrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrGrrrrrG
+---------------------------------------------------------------------------
+Now = 513.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 514.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 515.00
+s1 = rrrrrGrrrrrr and R1RYG = 0
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrryrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrryrrrrrG
+---------------------------------------------------------------------------
+Now = 516.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 517.00
+s1 = rrrrrGrrrrrr and R1RYG = -1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrrrr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrrrG
+---------------------------------------------------------------------------
+Now = 518.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 519.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrG
+newState = rrrrrrrrrGGG
+---------------------------------------------------------------------------
+Now = 520.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 521.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 522.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = 0
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrry
+newState = rrrrrrrrrGGy
+---------------------------------------------------------------------------
+Now = 523.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 524.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrrrrrrrrrG and R2RYG = -1
+s1 = rrrrrrrrrGGr and s2 = rrrrrrrrrrrr
+newState = rrrrrrrrrGGr
+---------------------------------------------------------------------------
+Now = 525.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 526.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 527.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 528.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+---------------------------------------------------------------------------
+Now = 529.00
+s1 = rrrrrrrrrGGr and R1RYG = 1
+s2 = rrrGGrrrrrrr and R2RYG = 1
+s1 = rrrrrrrrrGGr and s2 = rrrGGrrrrrrr
+newState = rrrGGrrrrGGr
+Step #530.00 (0ms ?*RT. ?UPS, vehicles TOT 90 ACT 0 BUF 0)                                

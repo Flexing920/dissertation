@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<routes>
+    <vType id="t0" accel="0.8" decel="4.5" sigma="1" length="120" maxSpeed="20" color="0,255,255"/>
+    <route id="r0" edges="WC CN"/>
+    <vehicle id="v0" type="t0" route="r0" depart="0">
+        <stop lane="WC_1" duration="300" endPos="600" parking="false" />
+    </vehicle>
+    <flow id="0"  begin="0"         end="300"  period="5" departSpeed="random" departLane="random" from="WC" to="CE"/>
+    <flow id="1"  begin="0"         end="300"  period="8" departSpeed="random" departLane="random" from="EC" to="CW"/>
+    <flow id="2"  begin="0"         end="300"  period="6" departSpeed="random" departLane="random" from="NC" to="CS"/>
+    <flow id="3"  begin="0"         end="300"  period="9" departSpeed="random" departLane="random" from="SC" to="CN"/>
+    
+    
+
+
+</routes>

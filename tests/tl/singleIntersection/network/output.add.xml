@@ -1,0 +1,4 @@
+<additional>
+    <edgeData id="N2TL" file="delays.xml"/>
+    <timedEvent type="SaveTLSSwitchStates" source="TL" dest="state_output.xml"/>
+</additional>

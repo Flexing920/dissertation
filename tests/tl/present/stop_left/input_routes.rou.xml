@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <vType id="t0" accel="0.8" decel="4.5" sigma="0.5" length="20" maxSpeed="50"/>
+    <vType id="t1" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/>
+    <route id="r0" edges="WC CN"/>
+
+    <vehicle id="v0" type="t0" route="r0" depart="0">
+        <stop lane="WC_2" duration="120" endPos="700" parking="false" />
+    </vehicle>
+    <vehicle id="v1" type="t1" route="r0" depart="10"></vehicle>
+
+</routes>

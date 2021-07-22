@@ -1,0 +1,67 @@
+    1  pwd
+    2  ls
+    3  git
+    4  sudo apt install git
+    5  git --version
+    6  sudo apt install git
+    7  sudo apt-get update
+    8  sudo apt-get install git
+    9  git clone https://github.com/eclipse/sumo.git
+   10  ls
+   11  cd sumo
+   12  ls
+   13  cd build
+   14  ls
+   15  mkdir cmake-build
+   16  cd cmake-build
+   17  sudo apt-get install cmake python g++ libxerces-c-dev libfox-1.6-dev libgdal-dev libproj-dev libgl2ps-dev swig
+   18  cmake ../..
+   19  sudo apt-get install libgtest-dev
+   20  cd
+   21  cd /usr/src/gtest
+   22  sumo cmake CMakeLists.txt 
+   23  sudo cmake CMakeLists.txt 
+   24  sudo make
+   25  sudo cp *.a /usr/lib
+   26  cd
+   27  sudo apt-get install openscenegraph
+   28  sudo apt install default-jdk
+   29  ls
+   30  git clone https://github.com/openscenegraph/OpenSceneGraph.git
+   31  ls
+   32  cd OpenSceneGraph/
+   33  ls
+   34  mkdir build
+   35  cd build
+   36  cmake ../OpenSceneGraph
+   37  cd ..
+   38  rm build
+   39  rm -rf build
+   40  ls
+   41  cmake .
+   42  make
+   43  ls
+   44  cd ..
+   45  rm -rf OpenSceneGraph/
+   46  vcpkg install osg
+   47  git clone https://github.com/openscenegraph/OpenSceneGraph.git
+   48  cd OpenSceneGraph/
+   49  cmake .
+   50  make
+   51  sudo make install
+   52  cd
+   53  sudo apt install libgwengui-fox16-dev
+   54  sudo apt-get install libgwengui-fox16-dev
+   55  ls
+   56  rm -rf OpenSceneGraph/
+   57  ls
+   58  ls -la
+   59  open .bashrc
+   60  code .bashrc
+   61  pwd
+   62  source .bashrc
+   63  sumo
+   64  sumo-gui
+   65  netedit
+   66  history
+   67  history > sumo-install-commands.txt

@@ -652,16 +652,16 @@ X11_Xkblib_INCLUDE_PATH:PATH=/usr/include
 X11_Xlib_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
-X11_Xmu_INCLUDE_PATH:PATH=X11_Xmu_INCLUDE_PATH-NOTFOUND
+X11_Xmu_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xmu_LIB:FILEPATH=X11_Xmu_LIB-NOTFOUND
+X11_Xmu_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXmu.so
 
 //Path to a file.
-X11_Xpm_INCLUDE_PATH:PATH=X11_Xpm_INCLUDE_PATH-NOTFOUND
+X11_Xpm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xpm_LIB:FILEPATH=X11_Xpm_LIB-NOTFOUND
+X11_Xpm_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXpm.so
 
 //Path to a file.
 X11_Xrandr_INCLUDE_PATH:PATH=X11_Xrandr_INCLUDE_PATH-NOTFOUND
@@ -989,7 +989,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.25.1()]
 //Details about finding JNI
 FIND_PACKAGE_MESSAGE_DETAILS_JNI:INTERNAL=[/usr/lib/jvm/default-java/lib/libjawt.so][/usr/lib/jvm/default-java/lib/server/libjvm.so][/usr/lib/jvm/default-java/include][/usr/lib/jvm/default-java/include/linux][/usr/lib/jvm/default-java/include][v()]
 //Details about finding Java
-FIND_PACKAGE_MESSAGE_DETAILS_Java:INTERNAL=[/usr/bin/java][/usr/bin/jar][/usr/bin/javac][/usr/bin/javadoc][v11.0.10()]
+FIND_PACKAGE_MESSAGE_DETAILS_Java:INTERNAL=[/usr/bin/java][/usr/bin/jar][/usr/bin/javac][/usr/bin/javadoc][v11.0.11()]
 //Details about finding OpenSceneGraph
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSceneGraph:INTERNAL=[/usr/local/lib/libosgGA.so;/usr/local/lib/libosgViewer.so;/usr/local/lib/libosgUtil.so;/usr/local/lib/libosgDB.so;/usr/local/lib/libosgText.so;/usr/local/lib/libosg.so;/usr/local/lib/libOpenThreads.so][/usr/local/include][v3.7.0(3.4.0)]
 //Details about finding OpenThreads

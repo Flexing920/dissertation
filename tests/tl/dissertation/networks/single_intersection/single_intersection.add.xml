@@ -1,0 +1,10 @@
+<additional>
+    <edgeData id="N2TL" file="results_delays.xml"/>
+    <timedEvent type="SaveTLSSwitchStates" source="TL" dest="results_phases.xml"/>
+    <!-- <rerouter id="2" edges="W2TL">
+        <interval begin="120" end="1000">
+            <closingLaneReroute id="W2TL_1"/>
+        </interval>         
+
+   </rerouter> -->
+</additional>

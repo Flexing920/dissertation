@@ -1,0 +1,27 @@
+environment:
+__init__
+    net_file: read directly
+    route_file = genroute(net_file)
+    singleAgent = true, false
+    defaultTSC = true, false
+    gui = true, false
+    yellow = 3
+    
+
+reset()
+step(action)
+getState(self)
+reward()
+isDone() = traci.simulation.getMinExpectedNumber() > 0
+choose_action
+env_render()
+
+genroute:
+    genEmergencyVehicle:
+        Multiple EVs are currently not allowed in the same simulation step for reducing complexity.
+        EV travel in the network rather
+        def addDetectorForEachIntersectionToAllowEVwithPriority
+    genNormalCars:
+    genStopVehicleRoute:
+
+
