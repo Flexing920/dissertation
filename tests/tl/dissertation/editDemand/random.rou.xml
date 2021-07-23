@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vehicle id="0" depart="0.00">
+        <route edges="right1C1 right1C1.100.00 C1B1 C1B1.100.00 B1A1 B1A1.100.00 A1A0 A1A0.100.00 A0bottom0"/>
+    </vehicle>
+    <vehicle id="1" depart="1.00">
+        <route edges="left0A0 left0A0.100.00 A0A1 A0A1.100.00 A1left1"/>
+    </vehicle>
+    <vehicle id="2" depart="2.00">
+        <route edges="right2C2 right2C2.100.00 C2C1 C2C1.100.00 C1C0 C1C0.100.00 C0right0"/>
+    </vehicle>
+    <vehicle id="3" depart="3.00">
+        <route edges="top1B2 top1B2.100.00 B2B1 B2B1.100.00 B1B0 B1B0.100.00 B0A0 B0A0.100.00 A0left0"/>
+    </vehicle>
+    <vehicle id="4" depart="4.00">
+        <route edges="left2A2 left2A2.100.00 A2A1 A2A1.100.00 A1A0 A1A0.100.00 A0bottom0"/>
+    </vehicle>
+</routes>

@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="code.rou.xml"/>
+        <!-- <additional-files value="NEMA.add.xml"/> -->
+        <!-- <tls.actuated.show-detectors value="true"/> -->
+    </input>
+
+
+</configuration>

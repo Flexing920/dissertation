@@ -1,0 +1,17 @@
+<routes>
+    <vehicle depart="0.00" id="0">
+        <route edges="right1C1 right1C1.100.00 C1B1 C1B1.100.00 B1A1 B1A1.100.00 A1A0 A1A0.100.00 A0bottom0" />
+    </vehicle>
+    <vehicle depart="1.00" id="1">
+        <route edges="left0A0 left0A0.100.00 A0A1 A0A1.100.00 A1left1" />
+    </vehicle>
+    <vehicle color="1,0,0" depart="2.00" id="2">
+        <route edges="right2C2 right2C2.100.00 C2C1 C2C1.100.00 C1C0 C1C0.100.00 C0right0" />
+    <stop duration="1500" endPos="20" lane="C2C1_1" parking="false" /></vehicle>
+    <vehicle depart="3.00" id="3">
+        <route edges="top1B2 top1B2.100.00 B2B1 B2B1.100.00 B1B0 B1B0.100.00 B0A0 B0A0.100.00 A0left0" />
+    </vehicle>
+    <vehicle depart="4.00" id="4">
+        <route edges="left2A2 left2A2.100.00 A2A1 A2A1.100.00 A1A0 A1A0.100.00 A0bottom0" />
+    </vehicle>
+</routes>
