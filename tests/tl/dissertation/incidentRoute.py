@@ -19,7 +19,7 @@ import numpy as np
 import random
 import xml.etree.ElementTree as ET
 from src.networkdata import NetworkData
-import logging
+
 
 import os, sys, optparse
 
@@ -34,19 +34,8 @@ from sumolib import checkBinary  # Checks for the binary in environ vars
 import traci
 
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-
-formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
-
-file_handler = logging.FileHandler('incidentRoute.log')
-file_handler.setLevel(logging.ERROR)
-file_handler.setFormatter(formatter)
-
-logger.addHandler(file_handler)
-
 class Incident():
-    def __init__(self, net_file, route_file, simulation_steps, n_incident=1):
+    def __init__(self, net_file, route_file, simulation_steps, n_incident=1, n_emergency=1):
         self.net = net_file
         self.route = route_file
         self.steps = simulation_steps
@@ -70,7 +59,9 @@ class Incident():
 
         self.incident_location = self.get_incident_location()
         self.incident_cmd = '<stop duration="{}" endPos="{}" lane="{}" parking="false" />'.format(self.incident_duration, self.incident_location, self.incident_lane)
-    
+
+        # emergency vehicle parameters
+        self.emergency_vehicle_length = 7.5 * n_emergency
     
     def get_incident_occurance_time(self):
         """ Get the incident occurance time in string format. """
@@ -88,7 +79,6 @@ class Incident():
         for x in vehs:
             if x.attrib["depart"] == self.incident_orrurance_time:
                 return x
-        logger.debug(f"No veh element available for this incident time!")
 
     # get the incident vehicle edges
     def get_veh_edges(self, veh):
@@ -145,10 +135,25 @@ class Incident():
         el_veh = self.incident_veh
         el_veh.set("color", "1,0,0")
         el_veh.append(el_stop)
-        logger.debug(f"Add {self.incident_cmd} to vid {self.get_incident_veh_id()}")
         self.tree.write(self.route)
         
     # functions for emergency vehicle dispatch
+
+    # def write_emergency_vehicle_xml(self):
+    #     xml = self.route
+    #     tree = ET.parse(xml)
+    #     root = tree.getroot()
+    #     emergencyVtypeEle = ET.fromstring(f'<vType id="emergency" accel="0.8" decel="4.5" length="{self.emergency_vehicle_length}" maxSpeed="30" color="0,1,0"/>')
+    #     root.insert(0,emergencyVtypeEle)
+    #     tree.write(self.route)
+
+    # def read_emergency_vehicle_xml(self):
+    #     xml = self.route
+    #     tree = ET.parse(xml)
+    #     root = tree.getroot()
+    #     e = root.findall("vType")[0]
+    #     print(e)
+
     def get_emergency_vehicle_origin(self):
         return random.choice(self.origins)
     
@@ -174,17 +179,18 @@ class Incident():
         return lane
 
     def dispath_emergency_vehicle(self):
+
         print("call dispatch emergency vehicle()")
+        # self.read_emergency_vehicle_xml()
         routeID = "emergencyTrip"
         new_vid = "99999999"
-        
         route = self.get_emergency_vehicle_route()
         print(f"the emergency vehicle route is {route}")
         traci.route.add(routeID, route)
 
         traci.vehicle.add(new_vid, routeID)
-
-        logger.debug(f"{self.get_emergency_vehicle_stop_lane}")
+        traci.vehicle.setLength(new_vid, self.emergency_vehicle_length)
+        traci.vehicle.setColor(new_vid, (0,0,255))
         lane = self.get_emergency_vehicle_stop_lane()
         # print(f"new_vid = {new_vid}, incident_edge = {type(self.incident_edge)}:{self.incident_edge}, incident_location = {type(self.incident_location)}:{self.incident_location}, lane = {type(lane)}:{lane},incident_duration = {type(self.incident_duration)}:{self.incident_duration}")
         traci.vehicle.setStop(new_vid, 
@@ -257,14 +263,13 @@ if __name__ == "__main__":
     net_file = "networks/grid2/net.net.xml"
     route_file = "networks/grid2/random.rou.xml"
     simulation_steps = 900
-    incident = Incident(net_file, route_file, simulation_steps)
-    logger.debug(incident.incident_cmd)
-    logger.debug(incident.get_incident_veh_id())
+    incident = Incident(net_file, route_file, simulation_steps, 1, 4)
+
     incident.add_incident_xml()
 
     # start traci for emergency vehicle adding
 
-    sumoBinary = 'sumo'
+    sumoBinary = 'sumo-gui'
 
     cfg = "networks/grid2/my.sumocfg"
     traci.start([sumoBinary, "-c", cfg,

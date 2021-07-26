@@ -1,22 +1,21 @@
 import xml.etree.ElementTree as ET
-f = "code.rou.xml"
+f = "random.rou.xml"
 tree = ET.parse(f)
 root = tree.getroot()
 vehs = root.findall("vehicle")
-t = "900.00"
-edge_1 = "top2C2"
-edge_2 = "C1B1.100.00"
-id = "no"
-edges = "empty"
-for i in range(len(vehs)):
-    route = vehs[i].find("route")
-    temp = route.attrib["edges"]
-    # print(temp)
-    l = temp.split()
-    # print(l)
-    if edge_1 in l and edge_2 in l:
-        print("yes")
-        id = vehs[i].attrib["id"]
-        edges = temp
-        print(f"id = {id} and edges = {edges}")
-        break
+for i in range(5):
+    print(root[i].attrib["depart"])
+
+# vtype = root.findall("vType")[0]
+# print(vtype.attrib["id"])
+# print(vtype.attrib["length"])
+# vtype.set("length", 30)
+# print(vtype.attrib["length"])
+
+emergencyVtypeEle = ET.fromstring(f'<vType id="emergency" accel="0.8" decel="4.5" length="30" maxSpeed="30" color="0,1,0"/>')
+root.insert(0,emergencyVtypeEle)
+# veh.append(el_stop)
+# vehs.insert(0, emergencyVtypeEle)
+tree.write("test.rou.xml")
+
+

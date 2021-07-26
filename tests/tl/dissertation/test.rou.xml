@@ -1,5 +1,6 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vehicle id="0" depart="0.00">
+    
+    <vType id="emergency" accel="0.8" decel="4.5" length="30" maxSpeed="30" color="0,1,0" /><vehicle id="0" depart="0.00">
         <route edges="bottom1B0 bottom1B0.100.00 B0B1 B0B1.100.00 B1C1 B1C1.100.00 C1C0 C1C0.100.00 C0B0 C0B0.100.00 B0bottom1" />
     </vehicle>
     <vehicle id="1" depart="0.50">
@@ -2435,9 +2436,9 @@
     <vehicle id="811" depart="405.50">
         <route edges="top0A2 top0A2.100.00 A2B2 A2B2.100.00 B2C2 B2C2.100.00 C2top2" />
     </vehicle>
-    <vehicle id="812" depart="406.00" color="1,0,0">
+    <vehicle id="812" depart="406.00">
         <route edges="right2C2 right2C2.100.00 C2C1 C2C1.100.00 C1B1 C1B1.100.00 B1B2 B1B2.100.00 B2C2 B2C2.100.00 C2right2" />
-    <stop duration="1200" endPos="41.0" lane="B1B2_1" parking="false" /></vehicle>
+    </vehicle>
     <vehicle id="813" depart="406.50">
         <route edges="top2C2 top2C2.100.00 C2C1 C2C1.100.00 C1B1 C1B1.100.00 B1A1 B1A1.100.00 A1left1" />
     </vehicle>
