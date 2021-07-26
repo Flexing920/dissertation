@@ -204,35 +204,13 @@ class NetworkData:
             ret[key]["nlanes"] = edges[key]["nlanes"]
         return ret
 
-    def genAnIncident(self):
-        e = random.choice(self.incidentEdges)
-        temp = self.addInfotoIncidentEdges()
-        nLanes = temp[e]["nlanes"]
-        length = temp[e]["length"]
-        n_random = random.randint(1, nLanes)
-        loc = random.randint(0, length)
-        lane = e + "_" + str(n_random)
-        durations = np.arange(600, 2100, 300)
-        duration = random.choice(durations)
-        print(f"the incident location is at {loc} away from the stop bar for {duration} seconds at lane {lane}")
-        self.incident = True
-        self.incidentCountDown = duration
-        return lane, loc, duration
+    
 
 if __name__=="__main__":
     print("In main...")
     nd = NetworkData("../networks/grid2/net.net.xml")
     netdata = nd.get_net_data()
-    # print(nd.incidentEdges)
-    # print(nd.addInfotoIncidentEdges())
-    print(nd.genAnIncident())
-    # randomly choose a vehicle and find an potential incident lane on its route to call genAnIncident() and self.nIncident += 1
-    # update the self.incident to True
-    # update the self.incidentCountDown to duration
-    # Remember the vehicleID
-    # Once the self.incidentCountDown is 0
-    # update the self.nIncidents -= 1
-    # if self.nIncidents == 0: self.incident = False
+
 
 
     

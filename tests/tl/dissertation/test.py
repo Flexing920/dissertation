@@ -1,5 +1,5 @@
-a = ["1", "11", "111"]
-b = "1"
-c = "111"
-if b in a and c in a:
-    print("yes")
+import random
+import numpy as np
+n = 3
+a_list = list(range(0, n))
+print(a_list)
